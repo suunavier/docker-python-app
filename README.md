@@ -2,10 +2,20 @@
 Dockerize python application for a simple project or your practicing Python programming!  
 
 # How to Use
-```bash
-docker build -t your-image-name .
-docker run -it --rm --name your-container-name your-image-name
-```
+
+1. First, build your image.
+
+  ```bash
+  docker build -t your-image-name .
+  ```
+
+1. Then, run your container.
+
+  ```bash
+  docker run -it --rm --name your-container-name your-image-name
+  ```
+
+## Run your script!
 
 if you want to run your script, you can edit `Dockerfile` like below.
 
