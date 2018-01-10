@@ -21,6 +21,6 @@ if you want to run your script, you can edit `Dockerfile` like below.
 
 ```diff
 FROM python:3-onbuild
-- CMD [ "python", "./script.py"]
-+ CMD [ "python", , "./script.py"]
+- CMD [ "python"]
++ CMD [ "python", "./script.py"]
 ```
